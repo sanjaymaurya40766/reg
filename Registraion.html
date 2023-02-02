@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body style="background-color: skyblue">
+    <h2>Registration Form</h2>
+    <p>Enter Your details below</p>
+    <div>
+      <ul>
+        <li>
+          <input type="email" required placeholder="your_email@gmail.com" />
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <input
+            type="email"
+            required
+            placeholder="Password"
+            minlength="8"
+            maxlength="20"
+          />
+        </li>
+      </ul>
+      <p>! Type a complex password with 8-20 characters.</p>
+    </div>
+    <div>
+      <ul>
+        <li><input type="number" required placeholder="+20 Phone Number" /></li>
+      </ul>
+    </div>
+    <hr />
+    <p>Enter your profession:</p>
+    <div>
+      <ul>
+        <li>
+          <input type="radio" name="profession" />student
+          <input type="radio" name="profession" />Teacher
+          <input type="radio" name="profession" />Developer
+        </li>
+      </ul>
+    </div>
+    Choose the stage if you are (student)
+    <select name="stage" id="stage">
+      <option value="first primary">first primary</option>
+      <option value="second primary">first primary</option>
+      <option value="third primary">first primary</option>
+      <option value="fourth primary">first primary</option>
+    </select>
+    <hr />
+    <ul>
+      <li>Enter your Birth date <input type="date" /></li>
+    </ul>
+    <hr />
+    <ul>
+      <li><input type="text" required placeholder="Any notes" /></li>
+    </ul>
+    <hr />
+    <input type="button" value="submit" /> <input type="button" value="Reset" />
+  </body>
+</html>
